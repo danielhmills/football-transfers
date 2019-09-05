@@ -11,7 +11,8 @@
 	foaf:name "Naïm Sliti" ;
 	foaf:depiction "https://tmssl.akamaized.net//images/portrait/medium/184491-1463740696.jpg?lm=1463740716" .
 
-<#Left+Winger> rdfs:label "Left Winger" .
+<#Left+Winger> a <#Position> ;
+	rdfs:label "Left Winger" .
 
 <https://transfermarkt.com/naim-sliti/profil/spieler/184491> <#hasPosition> <#Left+Winger> .
 
@@ -45,7 +46,7 @@
 <https://transfermarkt.com//saudi-professional-league/transfers/wettbewerb/SA1> a <#League> ;
 	rdfs:label "Professional League" .
 
-<#Ligue+1> a <#League> ;
+<https://transfermarkt.com/ligue-1/transfers/wettbewerb/FR1> a <#League> ;
 	rdfs:label "Ligue 1" .
 
 <#2019/2020> a <#FootballSeason> ;
@@ -55,7 +56,8 @@
 	foaf:name "Álex Moreno" ;
 	foaf:depiction "https://tmssl.akamaized.net//images/portrait/medium/193098-1536737455.jpg?lm=1536737480" .
 
-<#Left-Back> rdfs:label "Left-Back" .
+<#Left-Back> a <#Position> ;
+	rdfs:label "Left-Back" .
 
 <https://transfermarkt.com/alex-moreno/profil/spieler/193098> <#hasPosition> <#Left-Back> .
 
@@ -89,14 +91,15 @@
 <https://transfermarkt.com//primera-division/transfers/wettbewerb/ES1> a <#League> ;
 	rdfs:label "LaLiga" .
 
-<#LaLiga2> a <#League> ;
+<https://transfermarkt.com/segunda-division/transfers/wettbewerb/ES2> a <#League> ;
 	rdfs:label "LaLiga2" .
 
 <https://transfermarkt.com/jhonny-lucas/profil/spieler/540990> a <#Player> ;
 	foaf:name "Jhonny Lucas" ;
 	foaf:depiction "https://tmssl.akamaized.net//images/portrait/medium/540990-1566289688.jpg?lm=1566289715" .
 
-<#Defensive+Midfield> rdfs:label "Defensive Midfield" .
+<#Defensive+Midfield> a <#Position> ;
+	rdfs:label "Defensive Midfield" .
 
 <https://transfermarkt.com/jhonny-lucas/profil/spieler/540990> <#hasPosition> <#Defensive+Midfield> .
 
@@ -130,14 +133,15 @@
 <https://transfermarkt.com//jupiler-pro-league/transfers/wettbewerb/BE1> a <#League> ;
 	rdfs:label "Jupiler Pro League" .
 
-<#S%C3%A9rie+B> a <#League> ;
+<https://transfermarkt.com/campeonato-brasileiro-serie-b/transfers/wettbewerb/BRA2> a <#League> ;
 	rdfs:label "Série B" .
 
 <https://transfermarkt.com/michael-santos/profil/spieler/178107> a <#Player> ;
 	foaf:name "Michael Santos" ;
 	foaf:depiction "https://tmssl.akamaized.net//images/portrait/medium/178107-1477490031.jpg?lm=1477490049" .
 
-<#Centre-Forward> rdfs:label "Centre-Forward" .
+<#Centre-Forward> a <#Position> ;
+	rdfs:label "Centre-Forward" .
 
 <https://transfermarkt.com/michael-santos/profil/spieler/178107> <#hasPosition> <#Centre-Forward> .
 
@@ -206,7 +210,7 @@
 <https://transfermarkt.com//premier-liga/transfers/wettbewerb/RU1> a <#League> ;
 	rdfs:label "Premier Liga" .
 
-<#Premier+Liga> a <#League> ;
+<https://transfermarkt.com/premier-liga/transfers/wettbewerb/RU1> a <#League> ;
 	rdfs:label "Premier Liga" .
 
 <https://transfermarkt.com/alex-gallar/profil/spieler/210143> a <#Player> ;
@@ -280,7 +284,8 @@
 	foaf:name "Diogo Verdasca" ;
 	foaf:depiction "https://tmssl.akamaized.net//images/portrait/medium/default.jpg?lm=1455618221" .
 
-<#Centre-Back> rdfs:label "Centre-Back" .
+<#Centre-Back> a <#Position> ;
+	rdfs:label "Centre-Back" .
 
 <https://transfermarkt.com/diogo-verdasca/profil/spieler/225162> <#hasPosition> <#Centre-Back> .
 
@@ -318,7 +323,8 @@
 	foaf:name "Maciej Ambrosiewicz" ;
 	foaf:depiction "https://tmssl.akamaized.net//images/portrait/medium/452447-1550677631.png?lm=1550677645" .
 
-<#Central+Midfield> rdfs:label "Central Midfield" .
+<#Central+Midfield> a <#Position> ;
+	rdfs:label "Central Midfield" .
 
 <https://transfermarkt.com/maciej-ambrosiewicz/profil/spieler/452447> <#hasPosition> <#Central+Midfield> .
 
@@ -352,7 +358,7 @@
 <https://transfermarkt.com//ekstraklasa/transfers/wettbewerb/PL1> a <#League> ;
 	rdfs:label "Ekstraklasa" .
 
-<#Ekstraklasa> a <#League> ;
+<https://transfermarkt.com/ekstraklasa/transfers/wettbewerb/PL1> a <#League> ;
 	rdfs:label "Ekstraklasa" .
 
 <https://transfermarkt.com/andrea-arrighini/profil/spieler/110823> a <#Player> ;
@@ -390,14 +396,15 @@
 <https://transfermarkt.com//prima-divisione-a/transfers/wettbewerb/IT3A> a <#League> ;
 	rdfs:label "Serie C - A" .
 
-<#Serie+C+-+B> a <#League> ;
+<https://transfermarkt.com/prima-divisione-b/transfers/wettbewerb/IT3B> a <#League> ;
 	rdfs:label "Serie C - B" .
 
 <https://transfermarkt.com/yusuf-yazici/profil/spieler/386726> a <#Player> ;
 	foaf:name "Yusuf Yazici" ;
 	foaf:depiction "https://tmssl.akamaized.net//images/portrait/medium/386726-1555008998.jpeg?lm=1555009017" .
 
-<#Attacking+Midfield> rdfs:label "Attacking Midfield" .
+<#Attacking+Midfield> a <#Position> ;
+	rdfs:label "Attacking Midfield" .
 
 <https://transfermarkt.com/yusuf-yazici/profil/spieler/386726> <#hasPosition> <#Attacking+Midfield> .
 
@@ -431,14 +438,15 @@
 <https://transfermarkt.com//ligue-1/transfers/wettbewerb/FR1> a <#League> ;
 	rdfs:label "Ligue 1" .
 
-<#S%C3%BCper+Lig> a <#League> ;
+<https://transfermarkt.com/super-lig/transfers/wettbewerb/TR1> a <#League> ;
 	rdfs:label "Süper Lig" .
 
 <https://transfermarkt.com/ruben-aguilar/profil/spieler/203746> a <#Player> ;
 	foaf:name "Ruben Aguilar" ;
 	foaf:depiction "https://tmssl.akamaized.net//images/portrait/medium/203746-1495543598.jpg?lm=1495543615" .
 
-<#Right-Back> rdfs:label "Right-Back" .
+<#Right-Back> a <#Position> ;
+	rdfs:label "Right-Back" .
 
 <https://transfermarkt.com/ruben-aguilar/profil/spieler/203746> <#hasPosition> <#Right-Back> .
 
@@ -473,7 +481,8 @@
 	foaf:name "Tomas Koubek" ;
 	foaf:depiction "https://tmssl.akamaized.net//images/portrait/medium/146714-1464946720.jpg?lm=1464946731" .
 
-<#Goalkeeper> rdfs:label "Goalkeeper" .
+<#Goalkeeper> a <#Position> ;
+	rdfs:label "Goalkeeper" .
 
 <https://transfermarkt.com/tomas-koubek/profil/spieler/146714> <#hasPosition> <#Goalkeeper> .
 
@@ -539,7 +548,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/399.png?lm=1407654193> ;
 	<#country> <http://dbpedia.org/resource/England> .
 
-<#Championship> a <#League> ;
+<https://transfermarkt.com/championship/transfers/wettbewerb/GB2> a <#League> ;
 	rdfs:label "Championship" .
 
 <https://transfermarkt.com/sebastiaan-bornauw/profil/spieler/338629> a <#Player> ;
@@ -570,7 +579,7 @@
 
 <https://transfermarkt.com//rsc-anderlecht/startseite/verein/58> <#league> <https://transfermarkt.com/jupiler-pro-league/transfers/wettbewerb/BE1> .
 
-<#Jupiler+Pro+League> a <#League> ;
+<https://transfermarkt.com/jupiler-pro-league/transfers/wettbewerb/BE1> a <#League> ;
 	rdfs:label "Jupiler Pro League" .
 
 <https://transfermarkt.com/lucas-joao/profil/spieler/234787> a <#Player> ;
@@ -640,7 +649,7 @@
 <https://transfermarkt.com//liga-mx-apertura/transfers/wettbewerb/MEXA> a <#League> ;
 	rdfs:label "Liga MX Apertura" .
 
-<#LigaPro+Serie+A> a <#League> ;
+<https://transfermarkt.com/ligapro-serie-a-ab-2019-/transfers/wettbewerb/EC1N> a <#League> ;
 	rdfs:label "LigaPro Serie A" .
 
 <https://transfermarkt.com/laurent-koscielny/profil/spieler/76277> a <#Player> ;
@@ -672,7 +681,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/11.png?lm=1489787850> ;
 	<#country> <http://dbpedia.org/resource/England> .
 
-<#Premier+League> a <#League> ;
+<https://transfermarkt.com/premier-league/transfers/wettbewerb/GB1> a <#League> ;
 	rdfs:label "Premier League" .
 
 <https://transfermarkt.com/edouard-mendy/profil/spieler/442531> a <#Player> ;
@@ -704,7 +713,8 @@
 	foaf:name "Jaromir Zmrhal" ;
 	foaf:depiction "https://tmssl.akamaized.net//images/portrait/medium/235413-1434523635.jpg?lm=1434523655" .
 
-<#Left+Midfield> rdfs:label "Left Midfield" .
+<#Left+Midfield> a <#Position> ;
+	rdfs:label "Left Midfield" .
 
 <https://transfermarkt.com/jaromir-zmrhal/profil/spieler/235413> <#hasPosition> <#Left+Midfield> ;
 	<#nationality> <http://dbpedia.org/resource/Czech_Republic> ;
@@ -735,7 +745,7 @@
 <https://transfermarkt.com//serie-a/transfers/wettbewerb/IT1> a <#League> ;
 	rdfs:label "Serie A" .
 
-<#Fortuna+Liga> a <#League> ;
+<https://transfermarkt.com/gambrinus-liga/transfers/wettbewerb/TS1> a <#League> ;
 	rdfs:label "Fortuna Liga" .
 
 <https://transfermarkt.com/galeno/profil/spieler/454121> a <#Player> ;
@@ -770,7 +780,7 @@
 <https://transfermarkt.com//primeira-liga/transfers/wettbewerb/PO1> a <#League> ;
 	rdfs:label "Liga NOS" .
 
-<#Liga+NOS> a <#League> ;
+<https://transfermarkt.com/primeira-liga/transfers/wettbewerb/PO1> a <#League> ;
 	rdfs:label "Liga NOS" .
 
 <https://transfermarkt.com/goncalo-cardoso/profil/spieler/587106> a <#Player> ;
@@ -859,7 +869,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/1175.png?lm=1501500709> ;
 	<#country> <http://dbpedia.org/resource/France> .
 
-<#Ligue+2> a <#League> ;
+<https://transfermarkt.com/ligue-2/transfers/wettbewerb/FR2> a <#League> ;
 	rdfs:label "Ligue 2" .
 
 <https://transfermarkt.com/alvaro-gimenez/profil/spieler/57935> a <#Player> ;
@@ -955,7 +965,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/614.png?lm=1551023331> ;
 	<#country> <http://dbpedia.org/resource/Brazil> .
 
-<#S%C3%A9rie+A> a <#League> ;
+<https://transfermarkt.com/campeonato-brasileiro-serie-a/transfers/wettbewerb/BRA1> a <#League> ;
 	rdfs:label "Série A" .
 
 <https://transfermarkt.com/matteo-stoppa/profil/spieler/391899> a <#Player> ;
@@ -987,7 +997,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/6692.png?lm=1520933965> ;
 	<#country> <http://dbpedia.org/resource/Italy> .
 
-<#Serie+C+-+A> a <#League> ;
+<https://transfermarkt.com/prima-divisione-a/transfers/wettbewerb/IT3A> a <#League> ;
 	rdfs:label "Serie C - A" .
 
 <https://transfermarkt.com/matt-godden/profil/spieler/145553> a <#Player> ;
@@ -1025,7 +1035,7 @@
 <https://transfermarkt.com//league-one/transfers/wettbewerb/GB3> a <#League> ;
 	rdfs:label "League One" .
 
-<#League+One> a <#League> ;
+<https://transfermarkt.com/league-one/transfers/wettbewerb/GB3> a <#League> ;
 	rdfs:label "League One" .
 
 <https://transfermarkt.com/fernando-boldrin/profil/spieler/144752> a <#Player> ;
@@ -1089,7 +1099,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/447.png?lm=1404056125> ;
 	<#country> <http://dbpedia.org/resource/Croatia> .
 
-<#1.HNL> a <#League> ;
+<https://transfermarkt.com/1-hnl/transfers/wettbewerb/KR1> a <#League> ;
 	rdfs:label "1.HNL" .
 
 <https://transfermarkt.com/thomas-nazlidis/profil/spieler/132671> a <#Player> ;
@@ -1111,7 +1121,8 @@
 	foaf:name "Burak Seres" ;
 	foaf:depiction "https://tmssl.akamaized.net//images/portrait/medium/133099-1462629074.jpg?lm=1462629084" .
 
-<#Second+Striker> rdfs:label "Second Striker" .
+<#Second+Striker> a <#Position> ;
+	rdfs:label "Second Striker" .
 
 <https://transfermarkt.com/burak-seres/profil/spieler/133099> <#hasPosition> <#Second+Striker> ;
 	<#nationality> <http://dbpedia.org/resource/Turkey> ;
@@ -1123,7 +1134,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/3211.png?lm=1442360689> ;
 	<#country> <http://dbpedia.org/resource/Turkey> .
 
-<#3.Lig+Grup+3> a <#League> ;
+<https://transfermarkt.com/3-lig-grup-3/transfers/wettbewerb/TR4C> a <#League> ;
 	rdfs:label "3.Lig Grup 3" .
 
 <https://transfermarkt.com/prodromos-therapontos/profil/spieler/133424> a <#Player> ;
@@ -1142,7 +1153,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/4590.png?lm=1421003360> ;
 	<#country> <http://dbpedia.org/resource/Cyprus> .
 
-<#First+Division> a <#League> ;
+<https://transfermarkt.com/division-a/transfers/wettbewerb/ZYP1> a <#League> ;
 	rdfs:label "First Division" .
 
 <https://transfermarkt.com/javi-rosa/profil/spieler/133750> a <#Player> ;
@@ -1170,7 +1181,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/1103.png?lm=1532531645> ;
 	<#country> <http://dbpedia.org/resource/Italy> .
 
-<#Serie+C+-+C> a <#League> ;
+<https://transfermarkt.com/prima-divisione-girone-c/transfers/wettbewerb/IT3C> a <#League> ;
 	rdfs:label "Serie C - C" .
 
 <https://transfermarkt.com/marco-burato/profil/spieler/133873> a <#Player> ;
@@ -1218,7 +1229,8 @@
 	foaf:name "Marco Civilleri" ;
 	foaf:depiction "https://tmssl.akamaized.net//images/portrait/medium/default.jpg?lm=1455618221" .
 
-<#Midfielder> rdfs:label "Midfielder" .
+<#Midfielder> a <#Position> ;
+	rdfs:label "Midfielder" .
 
 <https://transfermarkt.com/marco-civilleri/profil/spieler/134331> <#hasPosition> <#Midfielder> ;
 	<#nationality> <http://dbpedia.org/resource/Italy> ;
@@ -1230,7 +1242,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/31154.png?lm=1476952532> ;
 	<#country> <http://dbpedia.org/resource/Italy> .
 
-<#Serie+D+-+I> a <#League> ;
+<https://transfermarkt.com/serie-d-girone-i/transfers/wettbewerb/IT4I> a <#League> ;
 	rdfs:label "Serie D - I" .
 
 <https://transfermarkt.com/sacha-petshi/profil/spieler/134334> a <#Player> ;
@@ -1245,6 +1257,9 @@
 	<#league> <https://transfermarkt.com/corgon-liga/transfers/wettbewerb/SLO1> ;
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/6163.png?lm=1489787832> ;
 	<#country> <http://dbpedia.org/resource/Slovakia> .
+
+<https://transfermarkt.com/corgon-liga/transfers/wettbewerb/SLO1> a <#League> ;
+	rdfs:label "Fortuna Liga" .
 
 <https://transfermarkt.com/fabrizio-guarracino/profil/spieler/134335> a <#Player> ;
 	foaf:name "Fabrizio Guarracino" ;
@@ -1278,7 +1293,8 @@
 	foaf:name "Billy Ketkeophomphone" ;
 	foaf:depiction "https://tmssl.akamaized.net//images/portrait/medium/134712-1538136207.jpg?lm=1538136223" .
 
-<#Right+Midfield> rdfs:label "Right Midfield" .
+<#Right+Midfield> a <#Position> ;
+	rdfs:label "Right Midfield" .
 
 <https://transfermarkt.com/billy-ketkeophomphone/profil/spieler/134712> <#hasPosition> <#Right+Midfield> ;
 	<#nationality> <http://dbpedia.org/resource/France> ;
@@ -1303,7 +1319,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/987.png?lm=1496499308> ;
 	<#country> <http://dbpedia.org/resource/Scotland> .
 
-<#Premiership> a <#League> ;
+<https://transfermarkt.com/scottish-premiership/transfers/wettbewerb/SC1> a <#League> ;
 	rdfs:label "Premiership" .
 
 <https://transfermarkt.com/mauro-marrone/profil/spieler/135674> a <#Player> ;
@@ -1347,7 +1363,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/46.png?lm=1406106969> ;
 	<#country> <http://dbpedia.org/resource/Italy> .
 
-<#Serie+A> a <#League> ;
+<https://transfermarkt.com/serie-a/transfers/wettbewerb/IT1> a <#League> ;
 	rdfs:label "Serie A" .
 
 <https://transfermarkt.com/armando-vajushi/profil/spieler/136142> a <#Player> ;
@@ -1366,7 +1382,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/3739.png?lm=1562857150> ;
 	<#country> <http://dbpedia.org/resource/Albania> .
 
-<#Kategoria+Superiore> a <#League> ;
+<https://transfermarkt.com/kategoria-superiore/transfers/wettbewerb/ALB1> a <#League> ;
 	rdfs:label "Kategoria Superiore" .
 
 <https://transfermarkt.com/spyros-fourlanos/profil/spieler/136642> a <#Player> ;
@@ -1407,7 +1423,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/7633.png?lm=1421002359> ;
 	<#country> <http://dbpedia.org/resource/Mexico> .
 
-<#Liga+MX+Apertura> a <#League> ;
+<https://transfermarkt.com/liga-mx-apertura/transfers/wettbewerb/MEXA> a <#League> ;
 	rdfs:label "Liga MX Apertura" .
 
 <https://transfermarkt.com/sergey-bryzgalov/profil/spieler/137179> a <#Player> ;
@@ -1483,7 +1499,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/12054.png?lm=1419718188> ;
 	<#country> <http://dbpedia.org/resource/Russia> .
 
-<#PFL+Ural-Povolzje> a <#League> ;
+<https://transfermarkt.com/russian-professional-football-league-ural-povolzje/transfers/wettbewerb/RPLU> a <#League> ;
 	rdfs:label "PFL Ural-Povolzje" .
 
 <https://transfermarkt.com/nenad-sreckovic/profil/spieler/47080> a <#Player> ;
@@ -1499,7 +1515,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/11040.png?lm=1435179870> ;
 	<#country> <http://dbpedia.org/resource/Bosnia-Herzegovina> .
 
-<#Premijer+Liga> a <#League> ;
+<https://transfermarkt.com/premijer-liga/transfers/wettbewerb/BOS1> a <#League> ;
 	rdfs:label "Premijer Liga" .
 
 <https://transfermarkt.com/daniel-sturridge/profil/spieler/47082> a <#Player> ;
@@ -1519,7 +1535,8 @@
 	foaf:name "Gabriel Torje" ;
 	foaf:depiction "https://tmssl.akamaized.net//images/portrait/medium/47184-1465552262.jpg?lm=1465552271" .
 
-<#Right+Winger> rdfs:label "Right Winger" .
+<#Right+Winger> a <#Position> ;
+	rdfs:label "Right Winger" .
 
 <https://transfermarkt.com/gabriel-torje/profil/spieler/47184> <#hasPosition> <#Right+Winger> .
 
@@ -1593,7 +1610,8 @@
 	foaf:name "Rincón" ;
 	foaf:depiction "https://tmssl.akamaized.net//images/portrait/medium/47653-1449736907.jpg?lm=1449737615" .
 
-<#Defender> rdfs:label "Defender" .
+<#Defender> a <#Position> ;
+	rdfs:label "Defender" .
 
 <https://transfermarkt.com/rincon/profil/spieler/47653> <#hasPosition> <#Defender> ;
 	<#nationality> <http://dbpedia.org/resource/Brazil> ;
@@ -1605,7 +1623,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/1080.png?lm=1431960289> ;
 	<#country> <http://dbpedia.org/resource/France> .
 
-<#Championnat+National> a <#League> ;
+<https://transfermarkt.com/championnat-national/transfers/wettbewerb/FR3> a <#League> ;
 	rdfs:label "Championnat National" .
 
 <https://transfermarkt.com/victor-bravo/profil/spieler/47689> a <#Player> ;
@@ -1621,7 +1639,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/29271.png?lm=1468151023> ;
 	<#country> <http://dbpedia.org/resource/Spain> .
 
-<#2%C2%AA+B+-+Grupo+II> a <#League> ;
+<https://transfermarkt.com/segunda-division-b-grupo-ii/transfers/wettbewerb/ES3B> a <#League> ;
 	rdfs:label "2ª B - Grupo II" .
 
 <https://transfermarkt.com/jason-puncheon/profil/spieler/47995> a <#Player> ;
@@ -1675,7 +1693,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/1042.png?lm=1520420741> ;
 	<#country> <http://dbpedia.org/resource/England> .
 
-<#League+Two> a <#League> ;
+<https://transfermarkt.com/league-two/transfers/wettbewerb/GB4> a <#League> ;
 	rdfs:label "League Two" .
 
 <https://transfermarkt.com/ognjen-krasic/profil/spieler/48155> a <#Player> ;
@@ -1691,7 +1709,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/19488.png?lm=1543082238> ;
 	<#country> <http://dbpedia.org/resource/Serbia> .
 
-<#Linglong+Tire+Super+liga+Srbije> a <#League> ;
+<https://transfermarkt.com/superliga/transfers/wettbewerb/SER1> a <#League> ;
 	rdfs:label "Linglong Tire Super liga Srbije" .
 
 <https://transfermarkt.com/vuk-mitosevic/profil/spieler/48166> a <#Player> ;
@@ -1720,7 +1738,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/1219.png?lm=1500716772> ;
 	<#country> <http://dbpedia.org/resource/England> .
 
-<#National+League> a <#League> ;
+<https://transfermarkt.com/conference-national/transfers/wettbewerb/CNAT> a <#League> ;
 	rdfs:label "National League" .
 
 <https://transfermarkt.com/sam-foley/profil/spieler/48226> a <#Player> ;
@@ -1793,7 +1811,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/2700.png?lm=1409130027> ;
 	<#country> <http://dbpedia.org/resource/Russia> .
 
-<#PFL+South> a <#League> ;
+<https://transfermarkt.com/russian-professional-football-league-sud/transfers/wettbewerb/RPLS> a <#League> ;
 	rdfs:label "PFL South" .
 
 <https://transfermarkt.com/jamie-ward/profil/spieler/48692> a <#Player> ;
@@ -1860,6 +1878,9 @@
 <https://transfermarkt.com//china-league-two-south/transfers/wettbewerb/CL3S> a <#League> ;
 	rdfs:label "League Two South" .
 
+<https://transfermarkt.com/china-league-one/transfers/wettbewerb/CLO> a <#League> ;
+	rdfs:label "League One" .
+
 <#2018/2019> a <#FootballSeason> ;
 	rdfs:label "2018/2019" .
 
@@ -1902,7 +1923,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/3544.png?lm=1419860226> ;
 	<#country> <http://dbpedia.org/resource/Serbia> .
 
-<#Prva+liga> a <#League> ;
+<https://transfermarkt.com/prva-liga/transfers/wettbewerb/SER2> a <#League> ;
 	rdfs:label "Prva liga" .
 
 <https://transfermarkt.com/lewis-hawkins/profil/spieler/220490> a <#Player> ;
@@ -1931,7 +1952,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/14683.png?lm=1494611414> ;
 	<#country> <http://dbpedia.org/resource/Argentina> .
 
-<#Primera+Nacional> a <#League> ;
+<https://transfermarkt.com/primera-b-nacional/transfers/wettbewerb/ARG2> a <#League> ;
 	rdfs:label "Primera Nacional" .
 
 <https://transfermarkt.com/brahima-bakayoko/profil/spieler/221078> a <#Player> ;
@@ -1950,7 +1971,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/9099.png?lm=1421010419> ;
 	<#country> <http://dbpedia.org/resource/Morocco> .
 
-<#Botola+Pro> a <#League> ;
+<https://transfermarkt.com/botola-pro/transfers/wettbewerb/MAR1> a <#League> ;
 	rdfs:label "Botola Pro" .
 
 <https://transfermarkt.com/topio-coulibaly/profil/spieler/221080> a <#Player> ;
@@ -1993,7 +2014,8 @@
 	foaf:name "Fadi Zidan" ;
 	foaf:depiction "https://tmssl.akamaized.net//images/portrait/medium/default.jpg?lm=1455618221" .
 
-<#Forward> rdfs:label "Forward" .
+<#Forward> a <#Position> ;
+	rdfs:label "Forward" .
 
 <https://transfermarkt.com/fadi-zidan/profil/spieler/221420> <#hasPosition> <#Forward> .
 
@@ -2008,7 +2030,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/7532.png?lm=1455345725> ;
 	<#country> <http://dbpedia.org/resource/Israel> .
 
-<#Ligat+ha%27Al> a <#League> ;
+<https://transfermarkt.com/ligat-ha-al/transfers/wettbewerb/ISR1> a <#League> ;
 	rdfs:label "Ligat ha'Al" .
 
 <https://transfermarkt.com/alvaro-montero/profil/spieler/221990> a <#Player> ;
@@ -2024,7 +2046,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/12361.png?lm=1422972701> ;
 	<#country> <http://dbpedia.org/resource/Spain> .
 
-<#2%C2%AA+B+-+Grupo+IV> a <#League> ;
+<https://transfermarkt.com/segunda-division-b-grupo-iv/transfers/wettbewerb/ES3D> a <#League> ;
 	rdfs:label "2ª B - Grupo IV" .
 
 <https://transfermarkt.com/haritz-albisua/profil/spieler/222013> a <#Player> ;
@@ -2095,7 +2117,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/88.png?lm=1427654746> ;
 	<#country> <http://dbpedia.org/resource/Poland> .
 
-<#2+Liga> a <#League> ;
+<https://transfermarkt.com/2-liga/transfers/wettbewerb/PL2L> a <#League> ;
 	rdfs:label "2 Liga" .
 
 <https://transfermarkt.com/louis-longridge/profil/spieler/223050> a <#Player> ;
@@ -2110,6 +2132,9 @@
 	<#league> <https://transfermarkt.com/scottish-championship/transfers/wettbewerb/SC2> ;
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/1270.png?lm=1431536552> ;
 	<#country> <http://dbpedia.org/resource/Scotland> .
+
+<https://transfermarkt.com/scottish-championship/transfers/wettbewerb/SC2> a <#League> ;
+	rdfs:label "Championship" .
 
 <https://transfermarkt.com/quique-rivero/profil/spieler/223215> a <#Player> ;
 	foaf:name "Quique Rivero" ;
@@ -2206,7 +2231,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/16.png?lm=1396275280> ;
 	<#country> <http://dbpedia.org/resource/Germany> .
 
-<#Bundesliga> a <#League> ;
+<https://transfermarkt.com/1-bundesliga/transfers/wettbewerb/L1> a <#League> ;
 	rdfs:label "Bundesliga" .
 
 <https://transfermarkt.com/ruslan-malinovskyi/profil/spieler/207877> a <#Player> ;
@@ -2293,7 +2318,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/1533.png?lm=1408654757> ;
 	<#country> <http://dbpedia.org/resource/Spain> .
 
-<#LaLiga> a <#League> ;
+<https://transfermarkt.com/primera-division/transfers/wettbewerb/ES1> a <#League> ;
 	rdfs:label "LaLiga" .
 
 <https://transfermarkt.com/haroune-camara/profil/spieler/31406> a <#Player> ;
@@ -2441,7 +2466,7 @@
 <https://transfermarkt.com//3-liga/transfers/wettbewerb/L3> a <#League> ;
 	rdfs:label "3. Liga" .
 
-<#2.+Bundesliga> a <#League> ;
+<https://transfermarkt.com/2-bundesliga/transfers/wettbewerb/L2> a <#League> ;
 	rdfs:label "2. Bundesliga" .
 
 <https://transfermarkt.com/sam-byram/profil/spieler/236953> a <#Player> ;
@@ -2499,7 +2524,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/862.png?lm=1454498424> ;
 	<#country> <http://dbpedia.org/resource/Italy> .
 
-<#Serie+B> a <#League> ;
+<https://transfermarkt.com/serie-b/transfers/wettbewerb/IT2> a <#League> ;
 	rdfs:label "Serie B" .
 
 <https://transfermarkt.com/robin-lod/profil/spieler/173573> a <#Player> ;
@@ -2590,7 +2615,7 @@
 
 <https://transfermarkt.com//fc-kopenhagen/startseite/verein/190> <#league> <https://transfermarkt.com/superligaen/transfers/wettbewerb/DK1> .
 
-<#Superligaen> a <#League> ;
+<https://transfermarkt.com/superligaen/transfers/wettbewerb/DK1> a <#League> ;
 	rdfs:label "Superligaen" .
 
 <https://transfermarkt.com/sebastian-rode/profil/spieler/44466> a <#Player> ;
@@ -2759,7 +2784,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/2375.png?lm=1422008607> ;
 	<#country> <http://dbpedia.org/resource/Turkey> .
 
-<#1.Lig> a <#League> ;
+<https://transfermarkt.com/1-lig/transfers/wettbewerb/TR2> a <#League> ;
 	rdfs:label "1.Lig" .
 
 <https://transfermarkt.com/bopunga-botuli/profil/spieler/426786> a <#Player> ;
@@ -2875,7 +2900,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/288.png?lm=1412763170> ;
 	<#country> <http://dbpedia.org/resource/Argentina> .
 
-<#Superliga> a <#League> ;
+<https://transfermarkt.com/primera-division/transfers/wettbewerb/AR1N> a <#League> ;
 	rdfs:label "Superliga" .
 
 <https://transfermarkt.com/ivan-sunjic/profil/spieler/226097> a <#Player> ;
@@ -2982,7 +3007,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/1091.png?lm=1562577576> ;
 	<#country> <http://dbpedia.org/resource/Greece> .
 
-<#Super+League> a <#League> ;
+<https://transfermarkt.com/super-league/transfers/wettbewerb/GR1> a <#League> ;
 	rdfs:label "Super League" .
 
 <https://transfermarkt.com/dani-iglesias/profil/spieler/199348> a <#Player> ;
@@ -3217,6 +3242,9 @@
 <https://transfermarkt.com//2-bundesliga/transfers/wettbewerb/L2> a <#League> ;
 	rdfs:label "2. Bundesliga" .
 
+<https://transfermarkt.com/bundesliga/transfers/wettbewerb/A1> a <#League> ;
+	rdfs:label "Bundesliga" .
+
 <https://transfermarkt.com/vito-hammershoj-mistrati/profil/spieler/193724> a <#Player> ;
 	foaf:name "Vito Hammershöj Mistrati" ;
 	foaf:depiction "https://tmssl.akamaized.net//images/portrait/medium/193724-1498210551.jpg?lm=1498210570" ;
@@ -3300,7 +3328,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/710.png?lm=1424905453> ;
 	<#country> <http://dbpedia.org/resource/Slovenia> .
 
-<#Prva+Liga> a <#League> ;
+<https://transfermarkt.com/prva-liga/transfers/wettbewerb/SL1> a <#League> ;
 	rdfs:label "Prva Liga" .
 
 <https://transfermarkt.com/eden-hazard/profil/spieler/50202> a <#Player> ;
@@ -3380,7 +3408,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/610.png?lm=1458894971> ;
 	<#country> <http://dbpedia.org/resource/Netherlands> .
 
-<#Eredivisie> a <#League> ;
+<https://transfermarkt.com/eredivisie/transfers/wettbewerb/NL1> a <#League> ;
 	rdfs:label "Eredivisie" .
 
 <https://transfermarkt.com/aaron-wan-bissaka/profil/spieler/477758> a <#Player> ;
@@ -4094,6 +4122,9 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/16239.png?lm=1469859315> ;
 	<#country> <http://dbpedia.org/resource/Ukraine> .
 
+<https://transfermarkt.com/premier-liga/transfers/wettbewerb/UKR1> a <#League> ;
+	rdfs:label "Premier Liga" .
+
 <https://transfermarkt.com/fehmi-kacem/profil/spieler/292115> a <#Player> ;
 	foaf:name "Fehmi Kacem" ;
 	foaf:depiction "https://tmssl.akamaized.net//images/portrait/medium/default.jpg?lm=1455618221" ;
@@ -4107,7 +4138,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/9890.png?lm=1563116766> ;
 	<#country> <http://dbpedia.org/resource/Tunisia> .
 
-<#Ligue+I+Pro> a <#League> ;
+<https://transfermarkt.com/ligue-professionelle-1/transfers/wettbewerb/TUN1> a <#League> ;
 	rdfs:label "Ligue I Pro" .
 
 <https://transfermarkt.com/roman-stefurak/profil/spieler/294201> a <#Player> ;
@@ -4200,7 +4231,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/2275.png?lm=1422293634> ;
 	<#country> <http://dbpedia.org/resource/Finland> .
 
-<#Ykkönen> a <#League> ;
+<https://transfermarkt.com/ykkonen/transfers/wettbewerb/FI2> a <#League> ;
 	rdfs:label "Ykkönen" .
 
 <https://transfermarkt.com/yevhen-shevchenko/profil/spieler/363740> a <#Player> ;
@@ -4216,7 +4247,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/39097.png?lm=1487372803> ;
 	<#country> <http://dbpedia.org/resource/Ukraine> .
 
-<#Persha+Liha> a <#League> ;
+<https://transfermarkt.com/perscha-liga/transfers/wettbewerb/UKR2> a <#League> ;
 	rdfs:label "Persha Liha" .
 
 <https://transfermarkt.com/julen-monreal/profil/spieler/379872> a <#Player> ;
@@ -4232,7 +4263,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/14707.png?lm=1417193316> ;
 	<#country> <http://dbpedia.org/resource/Spain> .
 
-<#2%C2%AA+B+-+Grupo+I> a <#League> ;
+<https://transfermarkt.com/segunda-division-b-grupo-i/transfers/wettbewerb/ES3A> a <#League> ;
 	rdfs:label "2ª B - Grupo I" .
 
 <https://transfermarkt.com/mario-sergio/profil/spieler/380146> a <#Player> ;
@@ -4391,7 +4422,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/813.png?lm=1436680896> ;
 	<#country> <http://dbpedia.org/resource/United_States> .
 
-<#MLS> a <#League> ;
+<https://transfermarkt.com/major-league-soccer/transfers/wettbewerb/MLS1> a <#League> ;
 	rdfs:label "MLS" .
 
 <https://transfermarkt.com/david-okereke/profil/spieler/413605> a <#Player> ;
@@ -4474,6 +4505,9 @@
 	<#country> <http://dbpedia.org/resource/China> .
 
 <https://transfermarkt.com//chinese-super-league/transfers/wettbewerb/CSL> a <#League> ;
+	rdfs:label "Super League" .
+
+<https://transfermarkt.com/chinese-super-league/transfers/wettbewerb/CSL> a <#League> ;
 	rdfs:label "Super League" .
 
 <https://transfermarkt.com/denis-bouanga/profil/spieler/236045> a <#Player> ;
@@ -4681,7 +4715,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/16696.png?lm=1423401770> ;
 	<#country> <http://dbpedia.org/resource/Korea,_South> .
 
-<#K+League+1> a <#League> ;
+<https://transfermarkt.com/k-league-classic/transfers/wettbewerb/RSK1> a <#League> ;
 	rdfs:label "K League 1" .
 
 <https://transfermarkt.com/timo-kern/profil/spieler/57574> a <#Player> ;
@@ -4707,7 +4741,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/85.png?lm=1403341696> ;
 	<#country> <http://dbpedia.org/resource/Germany> .
 
-<#3.+Liga> a <#League> ;
+<https://transfermarkt.com/3-liga/transfers/wettbewerb/L3> a <#League> ;
 	rdfs:label "3. Liga" .
 
 <https://transfermarkt.com/luca-parodi/profil/spieler/256688> a <#Player> ;
@@ -4751,7 +4785,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/11380.png?lm=1552245317> ;
 	<#country> <http://dbpedia.org/resource/Romania> .
 
-<#Liga+2> a <#League> ;
+<https://transfermarkt.com/liga-ii-seria-i/transfers/wettbewerb/RO2> a <#League> ;
 	rdfs:label "Liga 2" .
 
 <https://transfermarkt.com/william-saliba/profil/spieler/495666> a <#Player> ;
@@ -5055,7 +5089,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/17.png?lm=1396275305> ;
 	<#country> <http://dbpedia.org/resource/Germany> .
 
-<#Regionalliga+West> a <#League> ;
+<https://transfermarkt.com/regionalliga-west/transfers/wettbewerb/RLW3> a <#League> ;
 	rdfs:label "Regionalliga West" .
 
 <https://transfermarkt.com/in-su-lee/profil/spieler/389150> a <#Player> ;
@@ -5465,7 +5499,7 @@
 <https://transfermarkt.com//primera-divison/transfers/wettbewerb/CLPD> a <#League> ;
 	rdfs:label "Primera División" .
 
-<#ABSA+Premiership> a <#League> ;
+<https://transfermarkt.com/absa-premiership/transfers/wettbewerb/SFA1> a <#League> ;
 	rdfs:label "ABSA Premiership" .
 
 <https://transfermarkt.com/georgiy-kyrnats/profil/spieler/362340> a <#Player> ;
@@ -5679,7 +5713,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/8104.png?lm=1476638592> ;
 	<#country> <http://dbpedia.org/resource/Romania> .
 
-<#Liga+1> a <#League> ;
+<https://transfermarkt.com/liga-1/transfers/wettbewerb/RO1> a <#League> ;
 	rdfs:label "Liga 1" .
 
 <https://transfermarkt.com/giannis-savva/profil/spieler/138118> a <#Player> ;
@@ -5748,7 +5782,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/18693.png?lm=1448823568> ;
 	<#country> <http://dbpedia.org/resource/Spain> .
 
-<#2%C2%AA+B+-+Grupo+III> a <#League> ;
+<https://transfermarkt.com/segunda-division-b-grupo-iii/transfers/wettbewerb/ES3C> a <#League> ;
 	rdfs:label "2ª B - Grupo III" .
 
 <https://transfermarkt.com/jakob-haugaard/profil/spieler/138335> a <#Player> ;
@@ -5790,7 +5824,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/3785.png?lm=1423260379> ;
 	<#country> <http://dbpedia.org/resource/Israel> .
 
-<#Liga+Leumit> a <#League> ;
+<https://transfermarkt.com/liga-leumit/transfers/wettbewerb/ISR2> a <#League> ;
 	rdfs:label "Liga Leumit" .
 
 <https://transfermarkt.com/pablo-alcolea/profil/spieler/138800> a <#Player> ;
@@ -5845,7 +5879,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/663.png?lm=1474921564> ;
 	<#country> <http://dbpedia.org/resource/Georgia> .
 
-<#Crystalbet+Erovnuli+Liga> a <#League> ;
+<https://transfermarkt.com/erovnuli-liga-ab-2017-/transfers/wettbewerb/GE1N> a <#League> ;
 	rdfs:label "Crystalbet Erovnuli Liga" .
 
 <https://transfermarkt.com/pietro-tripoli/profil/spieler/139175> a <#Player> ;
@@ -5886,7 +5920,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/22045.png?lm=1502969037> ;
 	<#country> <http://dbpedia.org/resource/Italy> .
 
-<#Serie+D+-+G> a <#League> ;
+<https://transfermarkt.com/serie-d-girone-g/transfers/wettbewerb/IT4G> a <#League> ;
 	rdfs:label "Serie D - G" .
 
 <https://transfermarkt.com/maikol-benassi/profil/spieler/139555> a <#Player> ;
@@ -5936,7 +5970,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/36755.png?lm=1516304515> ;
 	<#country> <http://dbpedia.org/resource/Belarus> .
 
-<#Vysheyshaya+Liga> a <#League> ;
+<https://transfermarkt.com/wyschejschaja-liha/transfers/wettbewerb/WER1> a <#League> ;
 	rdfs:label "Vysheyshaya Liga" .
 
 <https://transfermarkt.com/loris-tortori/profil/spieler/139638> a <#Player> ;
@@ -5959,7 +5993,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/36745.png?lm=1448917532> ;
 	<#country> <http://dbpedia.org/resource/Italy> .
 
-<#Serie+D+-+E> a <#League> ;
+<https://transfermarkt.com/serie-d-girone-e/transfers/wettbewerb/IT4E> a <#League> ;
 	rdfs:label "Serie D - E" .
 
 <https://transfermarkt.com/matias-pisano/profil/spieler/139923> a <#Player> ;
@@ -5995,7 +6029,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/51744.png?lm=1450025849> ;
 	<#country> <http://dbpedia.org/resource/Switzerland> .
 
-<#2.+Liga+Inter+-+Gr.+3> a <#League> ;
+<https://transfermarkt.com/2-liga-interregional-gruppe-3/transfers/wettbewerb/CIR3> a <#League> ;
 	rdfs:label "2. Liga Inter - Gr. 3" .
 
 <https://transfermarkt.com/adem-ljajic/profil/spieler/69374> a <#Player> ;
@@ -6441,7 +6475,7 @@
 <https://transfermarkt.com//uae-arabian-gulf-league/transfers/wettbewerb/UAE1> a <#League> ;
 	rdfs:label "UAE Gulf League" .
 
-<#UAE+Gulf+League> a <#League> ;
+<https://transfermarkt.com/uae-arabian-gulf-league/transfers/wettbewerb/UAE1> a <#League> ;
 	rdfs:label "UAE Gulf League" .
 
 <https://transfermarkt.com/predrag-rajkovic/profil/spieler/190263> a <#Player> ;
@@ -6865,7 +6899,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/801.png?lm=1414432431> ;
 	<#country> <http://dbpedia.org/resource/Sweden> .
 
-<#Allsvenskan> a <#League> ;
+<https://transfermarkt.com/allsvenskan/transfers/wettbewerb/SE1> a <#League> ;
 	rdfs:label "Allsvenskan" .
 
 <https://transfermarkt.com/jon-dadi-bodvarsson/profil/spieler/114090> a <#Player> ;
@@ -7055,7 +7089,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/21507.png?lm=1499537886> ;
 	<#country> <http://dbpedia.org/resource/Russia> .
 
-<#PFL+West> a <#League> ;
+<https://transfermarkt.com/russian-professional-football-league-west/transfers/wettbewerb/RPLW> a <#League> ;
 	rdfs:label "PFL West" .
 
 <https://transfermarkt.com/pau-cendros/profil/spieler/73138> a <#Player> ;
@@ -7166,7 +7200,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/27770.png?lm=1489874800> ;
 	<#country> <http://dbpedia.org/resource/Hungary> .
 
-<#NB+II.> a <#League> ;
+<https://transfermarkt.com/nemzeti-bajnoksag-ii/transfers/wettbewerb/UN2> a <#League> ;
 	rdfs:label "NB II." .
 
 <https://transfermarkt.com/luis-ibanez/profil/spieler/73623> a <#Player> ;
@@ -7250,7 +7284,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/18074.png?lm=1419587625> ;
 	<#country> <http://dbpedia.org/resource/Uruguay> .
 
-<#Torneo+Intermedio> a <#League> ;
+<https://transfermarkt.com/torneo-intermedio/transfers/wettbewerb/URUI> a <#League> ;
 	rdfs:label "Torneo Intermedio" .
 
 <https://transfermarkt.com/hrvoje-bukovski/profil/spieler/74289> a <#Player> ;
@@ -7317,6 +7351,9 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/32129.png?lm=1497042560> ;
 	<#country> <http://dbpedia.org/resource/Malta> .
 
+<https://transfermarkt.com/premier-league/transfers/wettbewerb/MAL1> a <#League> ;
+	rdfs:label "Premier League" .
+
 <https://transfermarkt.com/orhan-mustafi/profil/spieler/74537> a <#Player> ;
 	foaf:name "Orhan Mustafi" ;
 	foaf:depiction "https://tmssl.akamaized.net//bilder/spielerfotos/s_74537_10_2010_1.jpg?lm=0" ;
@@ -7333,7 +7370,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/2395.png?lm=1417098962> ;
 	<#country> <http://dbpedia.org/resource/Switzerland> .
 
-<#Promotion+League> a <#League> ;
+<https://transfermarkt.com/1-liga-promotion/transfers/wettbewerb/CHPR> a <#League> ;
 	rdfs:label "Promotion League" .
 
 <https://transfermarkt.com/milos-vesic/profil/spieler/74576> a <#Player> ;
@@ -7356,7 +7393,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/37169.png?lm=1498671076> ;
 	<#country> <http://dbpedia.org/resource/Hungary> .
 
-<#NB+I.> a <#League> ;
+<https://transfermarkt.com/nemzeti-bajnoksag/transfers/wettbewerb/UNG1> a <#League> ;
 	rdfs:label "NB I." .
 
 <https://transfermarkt.com/walter/profil/spieler/74605> a <#Player> ;
@@ -7372,7 +7409,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/10331.png?lm=1486310161> ;
 	<#country> <http://dbpedia.org/resource/Portugal> .
 
-<#Liga+Pro> a <#League> ;
+<https://transfermarkt.com/segunda-liga/transfers/wettbewerb/PO2> a <#League> ;
 	rdfs:label "Liga Pro" .
 
 <https://transfermarkt.com/javi-ontiveros/profil/spieler/298983> a <#Player> ;
@@ -7514,7 +7551,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/5380.png?lm=1406106969> ;
 	<#country> <http://dbpedia.org/resource/Italy> .
 
-<#Primavera+1> a <#League> ;
+<https://transfermarkt.com/primavera-1/transfers/wettbewerb/IJ1> a <#League> ;
 	rdfs:label "Primavera 1" .
 
 <https://transfermarkt.com/jonathan-gradit/profil/spieler/126557> a <#Player> ;
@@ -7704,7 +7741,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/596.png?lm=1411407417> ;
 	<#country> <http://dbpedia.org/resource/Japan> .
 
-<#J1+League> a <#League> ;
+<https://transfermarkt.com/j-league-division-1/transfers/wettbewerb/JAP1> a <#League> ;
 	rdfs:label "J1 League" .
 
 <https://transfermarkt.com/ayman-al-khalif/profil/spieler/470933> a <#Player> ;
@@ -7736,7 +7773,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/18487.png?lm=1407562631> ;
 	<#country> <http://dbpedia.org/resource/Saudi_Arabia> .
 
-<#Professional+League> a <#League> ;
+<https://transfermarkt.com/saudi-professional-league/transfers/wettbewerb/SA1> a <#League> ;
 	rdfs:label "Professional League" .
 
 <https://transfermarkt.com/timothy-dennis-awany/profil/spieler/480395> a <#Player> ;
@@ -8072,7 +8109,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/19027.png?lm=1514205427> ;
 	<#country> <http://dbpedia.org/resource/Chile> .
 
-<#Primera+Divisi%C3%B3n> a <#League> ;
+<https://transfermarkt.com/primera-divison/transfers/wettbewerb/CLPD> a <#League> ;
 	rdfs:label "Primera División" .
 
 <https://transfermarkt.com/maximilian-beister/profil/spieler/58379> a <#Player> ;
@@ -8215,7 +8252,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/2581.png?lm=1505651157> ;
 	<#country> <http://dbpedia.org/resource/Italy> .
 
-<#Serie+D+-+B> a <#League> ;
+<https://transfermarkt.com/serie-d-girone-b/transfers/wettbewerb/IT4B> a <#League> ;
 	rdfs:label "Serie D - B" .
 
 <https://transfermarkt.com/robinho/profil/spieler/347184> a <#Player> ;
@@ -8293,7 +8330,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/40280.png?lm=1443701948> ;
 	<#country> <http://dbpedia.org/resource/Russia> .
 
-<#1.Division> a <#League> ;
+<https://transfermarkt.com/1-division/transfers/wettbewerb/RU2> a <#League> ;
 	rdfs:label "1.Division" .
 
 <https://transfermarkt.com/anton-ferdinand/profil/spieler/3698> a <#Player> ;
@@ -8391,7 +8428,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/132.png?lm=1407648519> ;
 	<#country> <http://dbpedia.org/resource/Netherlands> .
 
-<#Keuken+Kampioen+Divisie> a <#League> ;
+<https://transfermarkt.com/jupiler-league/transfers/wettbewerb/NL2> a <#League> ;
 	rdfs:label "Keuken Kampioen Divisie" .
 
 <https://transfermarkt.com/lamine-diarra/profil/spieler/4902> a <#Player> ;
@@ -8407,7 +8444,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/2292.png?lm=1442154052> ;
 	<#country> <http://dbpedia.org/resource/Turkey> .
 
-<#2.Lig+Kirmizi> a <#League> ;
+<https://transfermarkt.com/2-lig-kirmizi/transfers/wettbewerb/TR3B> a <#League> ;
 	rdfs:label "2.Lig Kirmizi" .
 
 <https://transfermarkt.com/marc-richards/profil/spieler/5012> a <#Player> ;
@@ -8548,7 +8585,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/49078.png?lm=1441990625> ;
 	<#country> <http://dbpedia.org/resource/Turkey> .
 
-<#2.Lig+Beyaz> a <#League> ;
+<https://transfermarkt.com/2-lig-beyaz/transfers/wettbewerb/TR3A> a <#League> ;
 	rdfs:label "2.Lig Beyaz" .
 
 <https://transfermarkt.com/volkan-demirel/profil/spieler/7079> a <#Player> ;
@@ -8597,7 +8634,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/704.png?lm=1520933938> ;
 	<#country> <http://dbpedia.org/resource/Italy> .
 
-<#Serie+D+-+H> a <#League> ;
+<https://transfermarkt.com/serie-d-girone-h/transfers/wettbewerb/IT4H> a <#League> ;
 	rdfs:label "Serie D - H" .
 
 <https://transfermarkt.com/casi/profil/spieler/197130> a <#Player> ;
@@ -8767,7 +8804,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/20063.png?lm=1497717582> ;
 	<#country> <http://dbpedia.org/resource/Slovakia> .
 
-<#II.+Liga> a <#League> ;
+<https://transfermarkt.com/ii-liga/transfers/wettbewerb/SK2> a <#League> ;
 	rdfs:label "II. Liga" .
 
 <https://transfermarkt.com/emmanuel-imorou/profil/spieler/74709> a <#Player> ;
@@ -8823,7 +8860,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/242.png?lm=1419708487> ;
 	<#country> <http://dbpedia.org/resource/Switzerland> .
 
-<#Challenge+League> a <#League> ;
+<https://transfermarkt.com/challenge-league/transfers/wettbewerb/C2> a <#League> ;
 	rdfs:label "Challenge League" .
 
 <https://transfermarkt.com/jakub-sylvestr/profil/spieler/74900> a <#Player> ;
@@ -9349,8 +9386,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/6621.png?lm=1479507902> ;
 	<#country> <http://dbpedia.org/resource/Serbia> .
 
-<#Super+liga+Srbije> a <#League> ;
-	rdfs:label "Super liga Srbije" .
+<https://transfermarkt.com/superliga/transfers/wettbewerb/SER1> rdfs:label "Super liga Srbije" .
 
 <https://transfermarkt.com/marc-muniesa/profil/spieler/74228> a <#Player> ;
 	foaf:name "Marc Muniesa" ;
@@ -9763,6 +9799,9 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/22702.png?lm=1433878017> ;
 	<#country> <http://dbpedia.org/resource/Egypt> .
 
+<https://transfermarkt.com/egyptian-premier-league/transfers/wettbewerb/EGY1> a <#League> ;
+	rdfs:label "Premier League" .
+
 <https://transfermarkt.com/ivan-oleynikov/profil/spieler/371627> a <#Player> ;
 	foaf:name "Ivan Oleynikov" ;
 	foaf:depiction "https://tmssl.akamaized.net//images/portrait/medium/371627-1544901511.png?lm=1544901631" ;
@@ -9792,7 +9831,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/11755.png?lm=1409222667> ;
 	<#country> <http://dbpedia.org/resource/Russia> .
 
-<#U20+Premier+Liga> a <#League> ;
+<https://transfermarkt.com/molodezhnoe-pervenstvo-rossii/transfers/wettbewerb/RUJL> a <#League> ;
 	rdfs:label "U20 Premier Liga" .
 
 <https://transfermarkt.com/alexander-sebald/profil/spieler/215761> a <#Player> ;
@@ -9824,7 +9863,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/541.png?lm=1476116123> ;
 	<#country> <http://dbpedia.org/resource/Austria> .
 
-<#2.+Liga> a <#League> ;
+<https://transfermarkt.com/2-liga/transfers/wettbewerb/A2> a <#League> ;
 	rdfs:label "2. Liga" .
 
 <https://transfermarkt.com/turgay-mokhbaliev/profil/spieler/402618> a <#Player> ;
@@ -9881,7 +9920,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/12052.png?lm=1546197540> ;
 	<#country> <http://dbpedia.org/resource/Russia> .
 
-<#PFL+Central> a <#League> ;
+<https://transfermarkt.com/russian-professional-football-league-zentral/transfers/wettbewerb/RPLZ> a <#League> ;
 	rdfs:label "PFL Central" .
 
 <https://transfermarkt.com/igor-diveev/profil/spieler/532732> a <#Player> ;
@@ -10508,7 +10547,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/2352.png?lm=1433576334> ;
 	<#country> <http://dbpedia.org/resource/Colombia> .
 
-<#Liga+%C3%81guila+II> a <#League> ;
+<https://transfermarkt.com/liga-postobon-ii/transfers/wettbewerb/COL1> a <#League> ;
 	rdfs:label "Liga Águila II" .
 
 <https://transfermarkt.com/jorginho/profil/spieler/277111> a <#Player> ;
@@ -10919,7 +10958,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/1076.png?lm=1407646189> ;
 	<#country> <http://dbpedia.org/resource/Iran> .
 
-<#Persian+Gulf+Pro+League> a <#League> ;
+<https://transfermarkt.com/iranian-pro-league/transfers/wettbewerb/IRN1> a <#League> ;
 	rdfs:label "Persian Gulf Pro League" .
 
 <https://transfermarkt.com/emiliano-vecchio/profil/spieler/75728> a <#Player> ;
@@ -11044,7 +11083,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/6560.png?lm=1416697842> ;
 	<#country> <http://dbpedia.org/resource/Poland> .
 
-<#1+Liga> a <#League> ;
+<https://transfermarkt.com/1-liga/transfers/wettbewerb/PL2> a <#League> ;
 	rdfs:label "1 Liga" .
 
 <https://transfermarkt.com/arcangelo-ragosta/profil/spieler/59601> a <#Player> ;
@@ -11118,7 +11157,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/5862.png?lm=1499460096> ;
 	<#country> <http://dbpedia.org/resource/Slovenia> .
 
-<#Druga+Liga> a <#League> ;
+<https://transfermarkt.com/druga-liga/transfers/wettbewerb/SL2> a <#League> ;
 	rdfs:label "Druga Liga" .
 
 <https://transfermarkt.com/orjad-beqiri/profil/spieler/60284> a <#Player> ;
@@ -11285,7 +11324,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/35545.png?lm=1416511433> ;
 	<#country> <http://dbpedia.org/resource/Montenegro> .
 
-<#Telekom+1.+CFL> a <#League> ;
+<https://transfermarkt.com/prva-crnogorska-liga/transfers/wettbewerb/MNE1> a <#League> ;
 	rdfs:label "Telekom 1. CFL" .
 
 <https://transfermarkt.com/steven-deana/profil/spieler/61150> a <#Player> ;
@@ -11328,7 +11367,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/5091.png?lm=1449996212> ;
 	<#country> <http://dbpedia.org/resource/Denmark> .
 
-<#NordicBet+LIGA> a <#League> ;
+<https://transfermarkt.com/1-division/transfers/wettbewerb/DK2> a <#League> ;
 	rdfs:label "NordicBet LIGA" .
 
 <https://transfermarkt.com/will-atkinson/profil/spieler/61427> a <#Player> ;
@@ -11427,6 +11466,9 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/10540.png?lm=1547754787> ;
 	<#country> <http://dbpedia.org/resource/Kazakhstan> .
 
+<https://transfermarkt.com/premier-liga/transfers/wettbewerb/KAS1> a <#League> ;
+	rdfs:label "Premier Liga" .
+
 <https://transfermarkt.com/issam-jebali/profil/spieler/122635> a <#Player> ;
 	foaf:name "Issam Jebali" ;
 	foaf:depiction "https://tmssl.akamaized.net//bilder/spielerfotos/s_122635_250_2009_1.jpg?lm=0" ;
@@ -11506,7 +11548,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/28344.png?lm=1541696235> ;
 	<#country> <http://dbpedia.org/resource/Iran> .
 
-<#Azadegan+League> a <#League> ;
+<https://transfermarkt.com/azadegan-league/transfers/wettbewerb/IRN2> a <#League> ;
 	rdfs:label "Azadegan League" .
 
 <https://transfermarkt.com/nikita-salamatov/profil/spieler/209315> a <#Player> ;
@@ -11801,6 +11843,9 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/1167.png?lm=1510522261> ;
 	<#country> <http://dbpedia.org/resource/North_Macedonia> .
 
+<https://transfermarkt.com/prva-makedonska-fudbalska-liga/transfers/wettbewerb/MAZ1> a <#League> ;
+	rdfs:label "Prva liga" .
+
 <https://transfermarkt.com/njegos-petrovic/profil/spieler/376588> a <#Player> ;
 	foaf:name "Njegos Petrovic" ;
 	foaf:depiction "https://tmssl.akamaized.net//images/portrait/medium/376588-1553091982.jpg?lm=1553091994" ;
@@ -11888,7 +11933,7 @@
 <https://transfermarkt.com//1-division/transfers/wettbewerb/DK2> a <#League> ;
 	rdfs:label "NordicBet LIGA" .
 
-<#Premium+Liiga> a <#League> ;
+<https://transfermarkt.com/premium-liiga/transfers/wettbewerb/EST1> a <#League> ;
 	rdfs:label "Premium Liiga" .
 
 <https://transfermarkt.com/fernando-gorriaran/profil/spieler/310744> a <#Player> ;
@@ -11988,6 +12033,9 @@
 	<#league> <https://transfermarkt.com/raiffeisen-super-league/transfers/wettbewerb/C1> ;
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/434.png?lm=1410776821> ;
 	<#country> <http://dbpedia.org/resource/Switzerland> .
+
+<https://transfermarkt.com/raiffeisen-super-league/transfers/wettbewerb/C1> a <#League> ;
+	rdfs:label "Super League" .
 
 <https://transfermarkt.com/bernard-tekpetey/profil/spieler/422380> a <#Player> ;
 	foaf:name "Bernard Tekpetey" ;
@@ -12492,7 +12540,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/2977.png?lm=1420148200> ;
 	<#country> <http://dbpedia.org/resource/Belgium> .
 
-<#Proximus+League> a <#League> ;
+<https://transfermarkt.com/2-division/transfers/wettbewerb/BE2> a <#League> ;
 	rdfs:label "Proximus League" .
 
 <https://transfermarkt.com/marc-vidal/profil/spieler/123160> a <#Player> ;
@@ -12841,7 +12889,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/143.png?lm=1503056592> ;
 	<#country> <http://dbpedia.org/resource/Germany> .
 
-<#Regionalliga+Nord> a <#League> ;
+<https://transfermarkt.com/regionalliga-nord/transfers/wettbewerb/RLN3> a <#League> ;
 	rdfs:label "Regionalliga Nord" .
 
 <https://transfermarkt.com/aleksandr-dolgov/profil/spieler/515506> a <#Player> ;
@@ -12890,7 +12938,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/26462.png?lm=1416145674> ;
 	<#country> <http://dbpedia.org/resource/Bulgaria> .
 
-<#Parva+Liga> a <#League> ;
+<https://transfermarkt.com/a-grupa/transfers/wettbewerb/BU1> a <#League> ;
 	rdfs:label "Parva Liga" .
 
 <https://transfermarkt.com/alan-lelyukaev/profil/spieler/525699> a <#Player> ;
@@ -13055,7 +13103,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/14084.png?lm=1545864965> ;
 	<#country> <http://dbpedia.org/resource/India> .
 
-<#I-League> a <#League> ;
+<https://transfermarkt.com/i-league/transfers/wettbewerb/INIL> a <#League> ;
 	rdfs:label "I-League" .
 
 <https://transfermarkt.com/idrissa-gueye/profil/spieler/126665> a <#Player> ;
@@ -13279,7 +13327,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/36515.png?lm=1404337304> ;
 	<#country> <http://dbpedia.org/resource/Bosnia-Herzegovina> .
 
-<#Prva+liga+FBIH> a <#League> ;
+<https://transfermarkt.com/prva-liga-fbih/transfers/wettbewerb/BOS2> a <#League> ;
 	rdfs:label "Prva liga FBIH" .
 
 <https://transfermarkt.com/benjamin-lecomte/profil/spieler/127181> a <#Player> ;
@@ -13449,7 +13497,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/76.png?lm=1450646255> ;
 	<#country> <http://dbpedia.org/resource/Norway> .
 
-<#Eliteserien> a <#League> ;
+<https://transfermarkt.com/tippeligaen/transfers/wettbewerb/NO1> a <#League> ;
 	rdfs:label "Eliteserien" .
 
 <https://transfermarkt.com/felix-torres/profil/spieler/468174> a <#Player> ;
@@ -15139,7 +15187,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/30929.png?lm=1549815697> ;
 	<#country> <http://dbpedia.org/resource/Algeria> .
 
-<#Ligue+Professionnelle+1> a <#League> ;
+<https://transfermarkt.com/ligue-professionnelle-1/transfers/wettbewerb/ALG1> a <#League> ;
 	rdfs:label "Ligue Professionnelle 1" .
 
 <https://transfermarkt.com/ognjen-mudrinski/profil/spieler/139918> a <#Player> ;
@@ -15383,7 +15431,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/10747.png?lm=1480717950> ;
 	<#country> <http://dbpedia.org/resource/San_Marino> .
 
-<#Camp.+Sammarinese+I> a <#League> ;
+<https://transfermarkt.com/campionato-sammarinese-prima-fase/transfers/wettbewerb/CSPF> a <#League> ;
 	rdfs:label "Camp. Sammarinese I" .
 
 <https://transfermarkt.com/alessandro-favaro/profil/spieler/241069> a <#Player> ;
@@ -15504,7 +15552,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/6628.png?lm=1463410132> ;
 	<#country> <http://dbpedia.org/resource/Poland> .
 
-<#3+Liga+-+Group+I> a <#League> ;
+<https://transfermarkt.com/3-liga-gruppe-1/transfers/wettbewerb/PL31> a <#League> ;
 	rdfs:label "3 Liga - Group I" .
 
 <https://transfermarkt.com/halil-yilmaz/profil/spieler/242027> a <#Player> ;
@@ -15533,7 +15581,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/5551.png?lm=1423123509> ;
 	<#country> <http://dbpedia.org/resource/Australia> .
 
-<#A-League> a <#League> ;
+<https://transfermarkt.com/a-league/transfers/wettbewerb/AUS1> a <#League> ;
 	rdfs:label "A-League" .
 
 <https://transfermarkt.com/panagiotis-arnaoutoglou/profil/spieler/242599> a <#Player> ;
@@ -15671,7 +15719,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/8956.png?lm=1546129068> ;
 	<#country> <http://dbpedia.org/resource/Azerbaijan> .
 
-<#Premyer+Liqasi> a <#League> ;
+<https://transfermarkt.com/premyer-liqasi/transfers/wettbewerb/AZ1> a <#League> ;
 	rdfs:label "Premyer Liqasi" .
 
 <https://transfermarkt.com/mikhail-kuzyaev/profil/spieler/91555> a <#Player> ;
@@ -15856,7 +15904,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/3772.png?lm=1494105136> ;
 	<#country> <http://dbpedia.org/resource/Belgium> .
 
-<#Eerste+Amateur> a <#League> ;
+<https://transfermarkt.com/eerste-klasse-amateurs/transfers/wettbewerb/BEL3> a <#League> ;
 	rdfs:label "Eerste Amateur" .
 
 <https://transfermarkt.com/oguz-han-aynaoglu/profil/spieler/94296> a <#Player> ;
@@ -15878,6 +15926,9 @@
 	<#league> <https://transfermarkt.com/first-division/transfers/wettbewerb/MAL2> ;
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/5617.png?lm=1535899392> ;
 	<#country> <http://dbpedia.org/resource/Malta> .
+
+<https://transfermarkt.com/first-division/transfers/wettbewerb/MAL2> a <#League> ;
+	rdfs:label "First Division" .
 
 <https://transfermarkt.com/biel-guasp/profil/spieler/94416> a <#Player> ;
 	foaf:name "Biel Guasp" ;
@@ -16152,7 +16203,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/5866.png?lm=1437862048> ;
 	<#country> <http://dbpedia.org/resource/Denmark> .
 
-<#2.Division> a <#League> ;
+<https://transfermarkt.com/2-division-ost/transfers/wettbewerb/DK3O> a <#League> ;
 	rdfs:label "2.Division" .
 
 <https://transfermarkt.com/iacopo-la-rocca/profil/spieler/23360> a <#Player> ;
@@ -17116,7 +17167,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/5225.png?lm=1419785332> ;
 	<#country> <http://dbpedia.org/resource/Czech_Republic> .
 
-<#FNL> a <#League> ;
+<https://transfermarkt.com/druha-liga/transfers/wettbewerb/TS2> a <#League> ;
 	rdfs:label "FNL" .
 
 <https://transfermarkt.com/dolev-haziza/profil/spieler/367633> a <#Player> ;
@@ -18049,7 +18100,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/25922.png?lm=1523976830> ;
 	<#country> <http://dbpedia.org/resource/Italy> .
 
-<#Serie+D+-+F> a <#League> ;
+<https://transfermarkt.com/serie-d-girone-f/transfers/wettbewerb/IT4F> a <#League> ;
 	rdfs:label "Serie D - F" .
 
 <https://transfermarkt.com/mario-giappone/profil/spieler/437332> a <#Player> ;
@@ -18120,7 +18171,7 @@
 <https://transfermarkt.com//indian-super-league/transfers/wettbewerb/IND1> a <#League> ;
 	rdfs:label "Indian Super League" .
 
-<#Indian+Super+League> a <#League> ;
+<https://transfermarkt.com/indian-super-league/transfers/wettbewerb/IND1> a <#League> ;
 	rdfs:label "Indian Super League" .
 
 <https://transfermarkt.com/ilya-golovin/profil/spieler/582361> a <#Player> ;
@@ -19169,7 +19220,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/25.png?lm=1400738965> ;
 	<#country> <http://dbpedia.org/resource/Germany> .
 
-<#Regionalliga+Nordost> a <#League> ;
+<https://transfermarkt.com/regionalliga-nordost/transfers/wettbewerb/RLN4> a <#League> ;
 	rdfs:label "Regionalliga Nordost" .
 
 <https://transfermarkt.com/oualid-el-hajjam/profil/spieler/283127> a <#Player> ;
@@ -19222,7 +19273,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/22188.png?lm=1504794194> ;
 	<#country> <http://dbpedia.org/resource/Italy> .
 
-<#Serie+D+-+D> a <#League> ;
+<https://transfermarkt.com/serie-d-girone-d/transfers/wettbewerb/IT4D> a <#League> ;
 	rdfs:label "Serie D - D" .
 
 <https://transfermarkt.com/dries-wuytens/profil/spieler/83951> a <#Player> ;
@@ -20175,7 +20226,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/27999.png?lm=1545863388> ;
 	<#country> <http://dbpedia.org/resource/Switzerland> .
 
-<#Swiss+U18+Elite+League> a <#League> ;
+<https://transfermarkt.com/swiss-u18-elite-league/transfers/wettbewerb/CH18> a <#League> ;
 	rdfs:label "Swiss U18 Elite League" .
 
 <https://transfermarkt.com/sepp-van-den-berg/profil/spieler/541231> a <#Player> ;
@@ -21290,7 +21341,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/3612.png?lm=1420987598> ;
 	<#country> <http://dbpedia.org/resource/Qatar> .
 
-<#Stars+League> a <#League> ;
+<https://transfermarkt.com/qatar-stars-league/transfers/wettbewerb/QSL> a <#League> ;
 	rdfs:label "Stars League" .
 
 <https://transfermarkt.com/michael-cuisance/profil/spieler/344600> a <#Player> ;
@@ -21333,7 +21384,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/645.png?lm=1450110333> ;
 	<#country> <http://dbpedia.org/resource/Nigeria> .
 
-<#NPFL+Playoffs> a <#League> ;
+<https://transfermarkt.com/nigeria-professional-football-league-playoffs/transfers/wettbewerb/NPPL> a <#League> ;
 	rdfs:label "NPFL Playoffs" .
 
 <https://transfermarkt.com/christian-doidge/profil/spieler/255353> a <#Player> ;
@@ -22689,7 +22740,7 @@
 
 <https://transfermarkt.com//fc-chelsea-u21/startseite/verein/9250> <#league> <https://transfermarkt.com/u21-premier-league/transfers/wettbewerb/GB21> .
 
-<#Premier+League+2> a <#League> ;
+<https://transfermarkt.com/u21-premier-league/transfers/wettbewerb/GB21> a <#League> ;
 	rdfs:label "Premier League 2" .
 
 <https://transfermarkt.com/paulo-diaz/profil/spieler/271478> a <#Player> ;
@@ -23450,7 +23501,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/3737.png?lm=1474667051> ;
 	<#country> <http://dbpedia.org/resource/Iceland> .
 
-<#Pepsi+Max+deild> a <#League> ;
+<https://transfermarkt.com/pepsideild/transfers/wettbewerb/IS1> a <#League> ;
 	rdfs:label "Pepsi Max deild" .
 
 <https://transfermarkt.com/kilian-grant/profil/spieler/263858> a <#Player> ;
@@ -23637,7 +23688,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/2330.png?lm=1415443286> ;
 	<#country> <http://dbpedia.org/resource/Turkey> .
 
-<#3.Lig+Grup+2> a <#League> ;
+<https://transfermarkt.com/3-lig-grup-2/transfers/wettbewerb/TR4B> a <#League> ;
 	rdfs:label "3.Lig Grup 2" .
 
 <https://transfermarkt.com/mateusz-gancarczyk/profil/spieler/265995> a <#Player> ;
@@ -25596,7 +25647,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/26103.png?lm=1424162602> ;
 	<#country> <http://dbpedia.org/resource/Costa_Rica> .
 
-<#Primera+Div.+Apertura> a <#League> ;
+<https://transfermarkt.com/primera-division-invierno/transfers/wettbewerb/CRPD> a <#League> ;
 	rdfs:label "Primera Div. Apertura" .
 
 <https://transfermarkt.com/leonard-owusu/profil/spieler/579628> a <#Player> ;
@@ -26200,7 +26251,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/3734.png?lm=1415710419> ;
 	<#country> <http://dbpedia.org/resource/Japan> .
 
-<#J2+League> a <#League> ;
+<https://transfermarkt.com/j-league-division-2/transfers/wettbewerb/JAP2> a <#League> ;
 	rdfs:label "J2 League" .
 
 <https://transfermarkt.com/tom-pearce/profil/spieler/530384> a <#Player> ;
@@ -26660,7 +26711,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/40090.png?lm=1458379208> ;
 	<#country> <http://dbpedia.org/resource/Lithuania> .
 
-<#A+Lyga> a <#League> ;
+<https://transfermarkt.com/a-lyga/transfers/wettbewerb/LI1> a <#League> ;
 	rdfs:label "A Lyga" .
 
 <https://transfermarkt.com/aristidis-soiledis/profil/spieler/63490> a <#Player> ;
@@ -27351,6 +27402,9 @@
 	<#league> <https://transfermarkt.com/ifa-premiership/transfers/wettbewerb/NIR1> ;
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/9026.png?lm=1494449037> ;
 	<#country> <http://dbpedia.org/resource/Northern_Ireland> .
+
+<https://transfermarkt.com/ifa-premiership/transfers/wettbewerb/NIR1> a <#League> ;
+	rdfs:label "Premiership" .
 
 <https://transfermarkt.com/afriyie-acquah/profil/spieler/145581> a <#Player> ;
 	foaf:name "Afriyie Acquah" ;
@@ -28205,7 +28259,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/36224.png?lm=1480871766> ;
 	<#country> <http://dbpedia.org/resource/Norway> .
 
-<#OBOS-ligaen> a <#League> ;
+<https://transfermarkt.com/1-divisjon/transfers/wettbewerb/NO2> a <#League> ;
 	rdfs:label "OBOS-ligaen" .
 
 <https://transfermarkt.com/jusif-ali/profil/spieler/433892> a <#Player> ;
@@ -28221,7 +28275,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/3189.png?lm=1455922551> ;
 	<#country> <http://dbpedia.org/resource/Finland> .
 
-<#Veikkausliiga> a <#League> ;
+<https://transfermarkt.com/veikkausliiga/transfers/wettbewerb/FI1> a <#League> ;
 	rdfs:label "Veikkausliiga" .
 
 <https://transfermarkt.com/hakan-ozkan/profil/spieler/438422> a <#Player> ;
@@ -31202,7 +31256,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/435.png?lm=1407082472> ;
 	<#country> <http://dbpedia.org/resource/Germany> .
 
-<#Oberliga+Baden-W%C3%BCrttemberg> a <#League> ;
+<https://transfermarkt.com/oberliga-baden-wurttemberg/transfers/wettbewerb/OBLB> a <#League> ;
 	rdfs:label "Oberliga Baden-Württemberg" .
 
 <https://transfermarkt.com/aleksandr-saplinov/profil/spieler/449575> a <#Player> ;
@@ -31299,7 +31353,7 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/47286.png?lm=1537898371> ;
 	<#country> <http://dbpedia.org/resource/Bosnia-Herzegovina> .
 
-<#Prva+Liga+RS> a <#League> ;
+<https://transfermarkt.com/prva-liga-rs/transfers/wettbewerb/BH2S> a <#League> ;
 	rdfs:label "Prva Liga RS" .
 
 <https://transfermarkt.com/lukas-grgic/profil/spieler/224871> a <#Player> ;
@@ -31382,7 +31436,7 @@
 <https://transfermarkt.com//1-liga/transfers/wettbewerb/PL2> a <#League> ;
 	rdfs:label "1 Liga" .
 
-<#3+Liga+-+Group+III> a <#League> ;
+<https://transfermarkt.com/3-liga-gruppe-3/transfers/wettbewerb/PL33> a <#League> ;
 	rdfs:label "3 Liga - Group III" .
 
 <https://transfermarkt.com/hans-nunoo-sarpei/profil/spieler/451340> a <#Player> ;
@@ -31431,5 +31485,5 @@
 	foaf:depiction <https://tmssl.akamaized.net//images/wappen/big/11252.png?lm=1499719923> ;
 	<#country> <http://dbpedia.org/resource/Bosnia-Herzegovina> .
 
-<#Premijer+Liga+BiH+U19> a <#League> ;
+<https://transfermarkt.com/premijer-liga-bih-u19/transfers/wettbewerb/BI19> a <#League> ;
 	rdfs:label "Premijer Liga BiH U19" .
