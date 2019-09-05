@@ -1,4 +1,4 @@
-@prefix : <#>.
+@prefix : <https://raw.githubusercontent.com/danielhmills/football-transfers/master/data/football-transfers.ttl##>.
 
 :hasFee
 a rdf:Property;
@@ -10,7 +10,7 @@ a rdf:Property;
 rdfs:label "age";
 rdfs:comment "Player's age".
 
-:hasFee
+:country
 a rdf:Property;
 rdfs:label "country";
 rdfs:comment "country where entity resides".
