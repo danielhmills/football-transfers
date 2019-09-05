@@ -1,4 +1,4 @@
-@prefix : <https://raw.githubusercontent.com/danielhmills/football-transfers/master/data/football-transfers.ttl##>.
+@prefix : <https://raw.githubusercontent.com/danielhmills/football-transfers/master/data/football-transfers.ttl#>.
 
 :hasFee
 a rdf:Property;
